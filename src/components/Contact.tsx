@@ -19,7 +19,7 @@ const Contact = () => {
   const [submitError, setSubmitError] = useState('');
 
   // Replace this with your actual webhook URL
-  const WEBHOOK_URL = 'https://chipmunk-growing-cricket.ngrok-free.app/webhook-test/997eea60-6b5a-4220-8f02-2fb9570fa700';
+  const WEBHOOK_URL = 'https://chipmunk-growing-cricket.ngrok-free.app/webhook/997eea60-6b5a-4220-8f02-2fb9570fa700';
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
