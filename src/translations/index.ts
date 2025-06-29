@@ -1,0 +1,272 @@
+export const translations = {
+  en: {
+    // Navbar
+    services: 'Services',
+    technologies: 'Technologies',
+    team: 'Team',
+    about: 'About',
+    contact: 'Contact',
+    
+    // Hero Section
+    heroTitle: 'Cyberbeam',
+    heroSubtitle: 'AI Solutions',
+    heroDescription: 'Enterprise-grade AI consultation and implementation by experts from top tech companies. Transform your business with cutting-edge artificial intelligence solutions.',
+    getStarted: 'Get Started',
+    learnMore: 'Learn More',
+    aiImplementation: 'AI Implementation',
+    aiImplementationDesc: 'Complex AI solutions for enterprise operations',
+    performanceOptimization: 'Performance Optimization',
+    performanceOptimizationDesc: 'KPIs, metrics, and OKRs for measurable results',
+    enterpriseSecurity: 'Enterprise Security',
+    enterpriseSecurityDesc: 'Privacy-focused, secure AI deployments',
+    
+    // Services Section
+    ourServices: 'Our Services',
+    servicesDescription: 'Comprehensive AI solutions from consultation to implementation, backed by industry expertise and cutting-edge technology.',
+    aiConsultation: 'AI Consultation',
+    aiConsultationDesc: 'Strategic AI roadmaps and implementation planning by experts from top tech companies.',
+    cloudAiSolutions: 'Cloud AI Solutions',
+    cloudAiSolutionsDesc: 'Scalable AI deployments on AWS, Azure, and GCP with enterprise-grade security.',
+    aiAutomation: 'AI Automation',
+    aiAutomationDesc: 'Intelligent process automation using cutting-edge AI tools and frameworks.',
+    dataEngineering: 'Data Engineering',
+    dataEngineeringDesc: 'Robust data pipelines and infrastructure for AI-powered insights.',
+    aiSecurity: 'AI Security',
+    aiSecurityDesc: 'Enterprise-grade security and privacy protection for AI systems.',
+    performanceMonitoring: 'Performance Monitoring',
+    performanceMonitoringDesc: 'Comprehensive KPIs, metrics, and OKRs for AI system optimization.',
+    
+    // Technologies Section
+    technologiesTitle: 'Technologies We Master',
+    technologiesDescription: 'Cutting-edge tools and frameworks that power next-generation AI solutions. Our expertise spans the entire technology stack.',
+    programmingLanguages: 'Programming Languages',
+    aiMlFrameworks: 'AI/ML Frameworks',
+    dataAnalytics: 'Data & Analytics',
+    cloudPlatforms: 'Cloud Platforms',
+    aiToolsPlatforms: 'AI Tools & Platforms',
+    securityMonitoring: 'Security & Monitoring',
+    enterpriseGradeSolutions: 'Enterprise-Grade Solutions',
+    enterpriseGradeDesc: 'Our technology stack ensures scalability, security, and performance for mission-critical AI applications. We focus on system design, safety, privacy, and delivering measurable business outcomes through KPIs and OKRs.',
+    securityFirst: 'Security First',
+    scalableArchitecture: 'Scalable Architecture',
+    highPerformance: 'High Performance',
+    
+    // Team Section
+    worldClassTeam: 'World-Class Team',
+    teamDescription: 'Our team consists of industry veterans from top technology companies, bringing decades of experience in AI, cloud computing, and enterprise software.',
+    bigTechVeterans: 'Big Tech Veterans',
+    bigTechVeteransDesc: 'Senior engineers and managers from FAANG companies with proven track records in scaling AI systems.',
+    aiSpecialists: 'AI Specialists',
+    aiSpecialistsDesc: 'Deep expertise in LLMs, machine learning, and cutting-edge AI technologies.',
+    technicalLeaders: 'Technical Leaders',
+    technicalLeadersDesc: 'TPMs and architects who understand complex system design and enterprise requirements.',
+    innovationFocused: 'Innovation Focused',
+    innovationFocusedDesc: 'Continuous learning and adaptation to emerging AI technologies and methodologies.',
+    ourExpertise: 'Our Expertise',
+    whyChooseTeam: 'Why Choose Our Team?',
+    whyChooseTeamDesc: 'We combine deep technical expertise with practical business acumen. Our team has successfully delivered complex AI solutions at scale, ensuring your projects are not just technically sound but also drive measurable business value.',
+    provenTrackRecord: 'Proven Track Record',
+    industryRecognition: 'Industry Recognition',
+    continuousInnovation: 'Continuous Innovation',
+    
+    // About Section
+    aboutCyberbeam: 'About Cyberbeam',
+    aboutDescription: 'We\'re a team of AI experts, engineers, and consultants from top technology companies, dedicated to helping enterprises harness the power of artificial intelligence.',
+    ourMission: 'Our Mission',
+    missionDescription: 'To democratize AI technology and make it accessible to enterprises of all sizes. We believe that AI should be a force multiplier for human creativity and productivity, not a replacement for human intelligence.',
+    missionDescription2: 'Our approach combines technical excellence with deep business understanding, ensuring that every AI solution we deliver creates tangible value for our clients.',
+    whatSetsUsApart: 'What Sets Us Apart',
+    
+    // About Section - What Sets Us Apart List Items
+    deepExpertiseAiMl: 'Deep expertise in both AI/ML and enterprise software development',
+    provenTrackRecordScale: 'Proven track record of delivering complex solutions at scale',
+    endToEndService: 'End-to-end service from strategy to implementation and support',
+    focusSecurityPrivacy: 'Focus on security, privacy, and compliance in all solutions',
+    
+    innovationFirst: 'Innovation First',
+    innovationFirstDesc: 'We stay at the forefront of AI technology, continuously exploring and implementing cutting-edge solutions.',
+    resultsDriven: 'Results Driven',
+    resultsDrivenDesc: 'Every solution is designed with clear KPIs, metrics, and OKRs to ensure measurable business impact.',
+    securityPrivacy: 'Security & Privacy',
+    securityPrivacyDesc: 'Enterprise-grade security and privacy protection are fundamental to everything we build.',
+    scalableSolutions: 'Scalable Solutions',
+    scalableSolutionsDesc: 'Our solutions are built to scale from proof-of-concept to enterprise-wide deployment.',
+    readyToTransform: 'Ready to Transform Your Business?',
+    readyToTransformDesc: 'Whether you\'re looking to implement your first AI solution or scale existing capabilities, we have the expertise and tools to help you succeed. Let\'s discuss how we can accelerate your AI journey.',
+    startAiJourney: 'Start Your AI Journey',
+    
+    // Contact Section
+    getInTouch: 'Get In Touch',
+    contactDescription: 'Ready to transform your business with AI? Let\'s discuss your requirements and explore how we can help you achieve your goals.',
+    sendMessage: 'Send us a message',
+    name: 'Name',
+    email: 'Email',
+    company: 'Company',
+    message: 'Message',
+    yourFullName: 'Your full name',
+    yourEmail: 'your@email.com',
+    yourCompany: 'Your company name',
+    projectRequirements: 'Tell us about your project requirements...',
+    messageSent: 'Message Sent!',
+    contactInformation: 'Contact Information',
+    phone: 'Phone',
+    location: 'Location',
+    whyWorkWithUs: 'Why Work With Us?',
+    
+    // Contact Section - Why Work With Us List Items
+    freeConsultation: 'Free initial consultation and project assessment',
+    transparentPricing: 'Transparent pricing and project timelines',
+    dedicatedManagers: 'Dedicated project managers and technical leads',
+    ongoingSupport: 'Ongoing support and maintenance',
+    
+    // Footer
+    quickLinks: 'Quick Links',
+    home: 'Home',
+    footerDescription: 'Leading AI consultation and implementation company, transforming businesses with cutting-edge artificial intelligence solutions and enterprise-grade expertise.',
+    allRightsReserved: 'All rights reserved.',
+    builtWithTechnology: 'Built with cutting-edge technology for the future of AI.',
+    
+    // Common
+    required: '*',
+    sanFrancisco: 'Dublin, Ireland',
+    email_address: 'info@cyberbeam.ie',
+    phone_number: '+353 89 967 1818',
+  },
+  ar: {
+    // Navbar
+    services: 'الخدمات',
+    technologies: 'التقنيات',
+    team: 'الفريق',
+    about: 'حولنا',
+    contact: 'اتصل بنا',
+    
+    // Hero Section
+    heroTitle: 'سايبربيم',
+    heroSubtitle: 'حلول الذكاء الاصطناعي',
+    heroDescription: 'استشارات وتنفيذ الذكاء الاصطناعي على مستوى المؤسسات من قبل خبراء من أفضل شركات التكنولوجيا. حوّل عملك بحلول الذكاء الاصطناعي المتطورة.',
+    getStarted: 'ابدأ الآن',
+    learnMore: 'اعرف المزيد',
+    aiImplementation: 'تنفيذ الذكاء الاصطناعي',
+    aiImplementationDesc: 'حلول ذكاء اصطناعي معقدة لعمليات المؤسسات',
+    performanceOptimization: 'تحسين الأداء',
+    performanceOptimizationDesc: 'مؤشرات الأداء والمقاييس والأهداف لنتائج قابلة للقياس',
+    enterpriseSecurity: 'أمان المؤسسات',
+    enterpriseSecurityDesc: 'نشر آمن للذكاء الاصطناعي يركز على الخصوصية',
+    
+    // Services Section
+    ourServices: 'خدماتنا',
+    servicesDescription: 'حلول شاملة للذكاء الاصطناعي من الاستشارة إلى التنفيذ، مدعومة بخبرة الصناعة والتكنولوجيا المتطورة.',
+    aiConsultation: 'استشارات الذكاء الاصطناعي',
+    aiConsultationDesc: 'خرائط طريق استراتيجية للذكاء الاصطناعي وتخطيط التنفيذ من قبل خبراء من أفضل شركات التكنولوجيا.',
+    cloudAiSolutions: 'حلول الذكاء الاصطناعي السحابية',
+    cloudAiSolutionsDesc: 'نشر قابل للتوسع للذكاء الاصطناعي على AWS وAzure وGCP مع أمان على مستوى المؤسسات.',
+    aiAutomation: 'أتمتة الذكاء الاصطناعي',
+    aiAutomationDesc: 'أتمتة العمليات الذكية باستخدام أدوات وأطر عمل الذكاء الاصطناعي المتطورة.',
+    dataEngineering: 'هندسة البيانات',
+    dataEngineeringDesc: 'خطوط أنابيب بيانات قوية وبنية تحتية للرؤى المدعومة بالذكاء الاصطناعي.',
+    aiSecurity: 'أمان الذكاء الاصطناعي',
+    aiSecurityDesc: 'حماية الأمان والخصوصية على مستوى المؤسسات لأنظمة الذكاء الاصطناعي.',
+    performanceMonitoring: 'مراقبة الأداء',
+    performanceMonitoringDesc: 'مؤشرات أداء شاملة ومقاييس وأهداف لتحسين أنظمة الذكاء الاصطناعي.',
+    
+    // Technologies Section
+    technologiesTitle: 'التقنيات التي نتقنها',
+    technologiesDescription: 'أدوات وأطر عمل متطورة تشغل حلول الذكاء الاصطناعي من الجيل التالي. خبرتنا تمتد عبر مجموعة التكنولوجيا بأكملها.',
+    programmingLanguages: 'لغات البرمجة',
+    aiMlFrameworks: 'أطر عمل الذكاء الاصطناعي/التعلم الآلي',
+    dataAnalytics: 'البيانات والتحليلات',
+    cloudPlatforms: 'المنصات السحابية',
+    aiToolsPlatforms: 'أدوات ومنصات الذكاء الاصطناعي',
+    securityMonitoring: 'الأمان والمراقبة',
+    enterpriseGradeSolutions: 'حلول على مستوى المؤسسات',
+    enterpriseGradeDesc: 'مجموعة التكنولوجيا لدينا تضمن قابلية التوسع والأمان والأداء للتطبيقات الحيوية للذكاء الاصطناعي. نحن نركز على تصميم النظام والسلامة والخصوصية وتقديم نتائج أعمال قابلة للقياس من خلال مؤشرات الأداء والأهداف.',
+    securityFirst: 'الأمان أولاً',
+    scalableArchitecture: 'هندسة قابلة للتوسع',
+    highPerformance: 'أداء عالي',
+    
+    // Team Section
+    worldClassTeam: 'فريق عالمي المستوى',
+    teamDescription: 'يتكون فريقنا من قدامى المحاربين في الصناعة من أفضل شركات التكنولوجيا، يجلبون عقوداً من الخبرة في الذكاء الاصطناعي والحوسبة السحابية وبرمجيات المؤسسات.',
+    bigTechVeterans: 'قدامى شركات التكنولوجيا الكبرى',
+    bigTechVeteransDesc: 'مهندسون ومديرون كبار من شركات FAANG مع سجل حافل في توسيع أنظمة الذكاء الاصطناعي.',
+    aiSpecialists: 'متخصصون في الذكاء الاصطناعي',
+    aiSpecialistsDesc: 'خبرة عميقة في نماذج اللغة الكبيرة والتعلم الآلي وتقنيات الذكاء الاصطناعي المتطورة.',
+    technicalLeaders: 'قادة تقنيون',
+    technicalLeadersDesc: 'مديرو برامج تقنية ومهندسون معماريون يفهمون تصميم النظم المعقدة ومتطلبات المؤسسات.',
+    innovationFocused: 'مركز على الابتكار',
+    innovationFocusedDesc: 'تعلم مستمر وتكيف مع تقنيات ومنهجيات الذكاء الاصطناعي الناشئة.',
+    ourExpertise: 'خبرتنا',
+    whyChooseTeam: 'لماذا تختار فريقنا؟',
+    whyChooseTeamDesc: 'نحن نجمع بين الخبرة التقنية العميقة والفطنة التجارية العملية. لقد نجح فريقنا في تقديم حلول ذكاء اصطناعي معقدة على نطاق واسع، مما يضمن أن مشاريعك ليست سليمة تقنياً فحسب، بل تحقق أيضاً قيمة تجارية قابلة للقياس.',
+    provenTrackRecord: 'سجل حافل مثبت',
+    industryRecognition: 'اعتراف الصناعة',
+    continuousInnovation: 'ابتكار مستمر',
+    
+    // About Section
+    aboutCyberbeam: 'حول سايبربيم',
+    aboutDescription: 'نحن فريق من خبراء الذكاء الاصطناعي والمهندسين والاستشاريين من أفضل شركات التكنولوجيا، مكرسون لمساعدة المؤسسات على تسخير قوة الذكاء الاصطناعي.',
+    ourMission: 'مهمتنا',
+    missionDescription: 'إضفاء الطابع الديمقراطي على تكنولوجيا الذكاء الاصطناعي وجعلها في متناول المؤسسات من جميع الأحجام. نحن نؤمن أن الذكاء الاصطناعي يجب أن يكون مضاعف قوة للإبداع والإنتاجية البشرية، وليس بديلاً للذكاء البشري.',
+    missionDescription2: 'نهجنا يجمع بين التميز التقني والفهم التجاري العميق، مما يضمن أن كل حل ذكاء اصطناعي نقدمه يخلق قيمة ملموسة لعملائنا.',
+    whatSetsUsApart: 'ما يميزنا',
+    
+    // About Section - What Sets Us Apart List Items (Arabic translations)
+    deepExpertiseAiMl: 'خبرة عميقة في كل من الذكاء الاصطناعي/التعلم الآلي وتطوير برمجيات المؤسسات',
+    provenTrackRecordScale: 'سجل حافل مثبت في تقديم حلول معقدة على نطاق واسع',
+    endToEndService: 'خدمة شاملة من الاستراتيجية إلى التنفيذ والدعم',
+    focusSecurityPrivacy: 'التركيز على الأمان والخصوصية والامتثال في جميع الحلول',
+    
+    innovationFirst: 'الابتكار أولاً',
+    innovationFirstDesc: 'نبقى في المقدمة من تكنولوجيا الذكاء الاصطناعي، نستكشف وننفذ باستمرار حلولاً متطورة.',
+    resultsDriven: 'مدفوع بالنتائج',
+    resultsDrivenDesc: 'كل حل مصمم بمؤشرات أداء ومقاييس وأهداف واضحة لضمان تأثير تجاري قابل للقياس.',
+    securityPrivacy: 'الأمان والخصوصية',
+    securityPrivacyDesc: 'الأمان والحماية للخصوصية على مستوى المؤسسات أساسيان في كل ما نبنيه.',
+    scalableSolutions: 'حلول قابلة للتوسع',
+    scalableSolutionsDesc: 'حلولنا مبنية للتوسع من إثبات المفهوم إلى النشر على مستوى المؤسسة.',
+    readyToTransform: 'مستعد لتحويل عملك؟',
+    readyToTransformDesc: 'سواء كنت تتطلع إلى تنفيذ حل الذكاء الاصطناعي الأول أو توسيع القدرات الموجودة، لدينا الخبرة والأدوات لمساعدتك على النجاح. دعنا نناقش كيف يمكننا تسريع رحلة الذكاء الاصطناعي الخاصة بك.',
+    startAiJourney: 'ابدأ رحلة الذكاء الاصطناعي',
+    
+    // Contact Section
+    getInTouch: 'تواصل معنا',
+    contactDescription: 'مستعد لتحويل عملك بالذكاء الاصطناعي؟ دعنا نناقش متطلباتك ونستكشف كيف يمكننا مساعدتك في تحقيق أهدافك.',
+    sendMessage: 'أرسل لنا رسالة',
+    name: 'الاسم',
+    email: 'البريد الإلكتروني',
+    company: 'الشركة',
+    message: 'الرسالة',
+    yourFullName: 'اسمك الكامل',
+    yourEmail: 'your@email.com',
+    yourCompany: 'اسم شركتك',
+    projectRequirements: 'أخبرنا عن متطلبات مشروعك...',
+    messageSent: 'تم إرسال الرسالة!',
+    contactInformation: 'معلومات الاتصال',
+    phone: 'الهاتف',
+    location: 'الموقع',
+    whyWorkWithUs: 'لماذا تعمل معنا؟',
+    
+    // Contact Section - Why Work With Us List Items (Arabic translations)
+    freeConsultation: 'استشارة أولية مجانية وتقييم المشروع',
+    transparentPricing: 'تسعير شفاف وجداول زمنية للمشاريع',
+    dedicatedManagers: 'مديرو مشاريع مخصصون وقادة تقنيون',
+    ongoingSupport: 'دعم وصيانة مستمرة',
+    
+    // Footer
+    quickLinks: 'روابط سريعة',
+    home: 'الرئيسية',
+    footerDescription: 'شركة رائدة في استشارات وتنفيذ الذكاء الاصطناعي، تحول الأعمال بحلول الذكاء الاصطناعي المتطورة والخبرة على مستوى المؤسسات.',
+    allRightsReserved: 'جميع الحقوق محفوظة.',
+    builtWithTechnology: 'مبني بتكنولوجيا متطورة لمستقبل الذكاء الاصطناعي.',
+    
+    // Common
+    required: '*',
+    sanFrancisco: 'دبلن، ايرلندا',
+    email_address: 'info@cyberbeam.ie',
+    phone_number: '+353 89 967 1818',
+  }
+};
+
+export const useTranslation = (language: 'en' | 'ar') => {
+  return translations[language];
+};
