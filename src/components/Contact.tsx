@@ -18,7 +18,7 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
-  // Replace this with your actual webhook URL
+  // Updated webhook URL to match your provided URL
   const WEBHOOK_URL = 'https://chipmunk-growing-cricket.ngrok-free.app/webhook/997eea60-6b5a-4220-8f02-2fb9570fa700';
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -31,6 +31,7 @@ const Contact = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'ngrok-skip-browser-warning': 'true', // Skip ngrok browser warning
         },
         body: JSON.stringify({
           name: formData.name,
@@ -38,11 +39,14 @@ const Contact = () => {
           company: formData.company,
           message: formData.message,
           timestamp: new Date().toISOString(),
-          source: 'contact-form'
+          source: 'contact-form',
+          language: language
         }),
       });
 
       if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Response error:', response.status, errorText);
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
@@ -60,7 +64,7 @@ const Contact = () => {
       
     } catch (error) {
       console.error('Error submitting form:', error);
-      setSubmitError('Failed to send message. Please try again.');
+      setSubmitError('Failed to send message. Please check your connection and try again.');
       
       // Clear error message after 5 seconds
       setTimeout(() => setSubmitError(''), 5000);
